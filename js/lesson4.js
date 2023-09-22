@@ -1,12 +1,12 @@
 // Function expression
 
-// const fn = function (valA, valB) {
-//   // let valA = 4
-//   // let valB; // undefined
-//   return valA + valB;
-// };
-// console.log(fn(4, 5));
-// console.log(fn(4));
+const fn = function (valA, valB) {
+//   let valA = 4
+//   let valB; // undefined
+  return valA + valB;
+};
+console.log(fn(4, 5));
+console.log(fn(4));
 
 // Function declaration
 // hoisting https://codeguida.com/post/199
